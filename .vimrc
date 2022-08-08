@@ -1,0 +1,11 @@
+source ~/.vim/_options.vim
+source ~/.vim/_plugins.vim
+source ~/.vim/_lsp.vim
+source ~/.vim/_theme.vim
+source ~/.vim/_grep.vim
+source ~/.vim/_session.vim
+source ~/.vim/_fzf.vim
+source ~/.vim/_nerdtree.vim
+source ~/.vim/_mappings.vim
+source ~/.vim/_airline.vim
+source ~/.vim/_bclose.vim
