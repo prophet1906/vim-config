@@ -1,3 +1,14 @@
 {
-  "semanticTokens.enable": true
+  "semanticTokens.enable": true,
+  "texlab.build.onSave": true,
+  "texlab.chktex.onOpenAndSave": true,
+  "texlab.chktex.onEdit": true,
+  "texlab.auxDirectory": "./build",
+  "texlab.build.args": [
+    "-pdf",
+    "-interaction=nonstopmode",
+    "-synctex=1",
+    "-output-directory=build",
+    "%f"
+  ]
 }
