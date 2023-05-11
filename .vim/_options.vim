@@ -1,4 +1,5 @@
-let mapleader="," " set leader key to space
+let mapleader="," " set leader key to comma
+let g:tex_flavor="latex"
 
 set clipboard="" " don't use clipboard
 set cmdheight=1 " more space in the neovim command line for
