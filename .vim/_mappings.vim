@@ -46,3 +46,4 @@ noremap <leader>x :bn<CR>
 nnoremap <Tab> gt
 nnoremap <S-Tab> gT
 nnoremap <silent> <S-t> :tabnew<CR>
+

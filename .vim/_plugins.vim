@@ -39,4 +39,8 @@ call plug#begin()
   " Status tabline
   Plug 'vim-airline/vim-airline'
   Plug 'vim-airline/vim-airline-themes'
+  " Requirements for reusing CDS Syntax highlighting using scorpeon.vim
+  " Deno should be installed and present in PATH
+  Plug 'vim-denops/denops.vim'
+  Plug 'https://github.com/uga-rosa/scorpeon.vim'
 call plug#end()

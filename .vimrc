@@ -9,3 +9,5 @@ source ~/.vim/_nerdtree.vim
 source ~/.vim/_mappings.vim
 source ~/.vim/_airline.vim
 source ~/.vim/_bclose.vim
+source ~/.vim/_cds.vim
+source ~/.vim/_scorpeon.vim

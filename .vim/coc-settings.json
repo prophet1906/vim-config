@@ -10,5 +10,12 @@
     "-synctex=1",
     "-output-directory=build",
     "%f"
-  ]
+  ],
+  "languageserver": {
+    "cds-lsp": {
+      "module": "~/.vim/SAPSE.vscode-cds/extension/node_modules/@sap/cds-lsp/dist/main.js",
+      "args": ["--node-ipc"],
+      "filetypes": ["cds"]
+    }
+  }
 }
