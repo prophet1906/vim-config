@@ -13,9 +13,32 @@
   ],
   "languageserver": {
     "cds-lsp": {
-      "module": "~/.vim/SAPSE.vscode-cds/extension/node_modules/@sap/cds-lsp/dist/main.js",
+      "module": "~/.vim/extensions/SAPSE.vscode-cds/node_modules/@sap/cds-lsp/dist/main.js",
       "args": ["--node-ipc"],
       "filetypes": ["cds"]
+    },
+    "haskell": {
+      "command": "haskell-language-server-wrapper",
+      "args": ["--lsp"],
+      "rootPatterns": [
+        "*.cabal",
+        "stack.yaml",
+        "cabal.project",
+        "package.yaml",
+        "hie.yaml"
+      ],
+      "filetypes": ["haskell", "lhaskell"],
+      "settings": {
+        "haskell": {
+          "checkParents": "CheckOnSave",
+          "checkProject": true,
+          "maxCompletions": 40,
+          "formattingProvider": "ormolu",
+          "plugin": {
+            "stan": { "globalOn": true }
+          }
+        }
+      }
     }
   }
 }

@@ -33,7 +33,7 @@ call plug#begin()
     Plug 'junegunn/fzf.vim'
   endif
   " colorschemes for themes from https://vimcolorschemes.com/
-  Plug 'nlknguyen/papercolor-theme'
+  Plug 'flazz/vim-colorschemes'
   " Git Diff in editor"
   Plug 'airblade/vim-gitgutter'
   " Status tabline
@@ -43,4 +43,6 @@ call plug#begin()
   " Deno should be installed and present in PATH
   Plug 'vim-denops/denops.vim'
   Plug 'https://github.com/uga-rosa/scorpeon.vim'
+  " NuSMV
+  Plug 'wannesm/wmnusmv.vim'
 call plug#end()
