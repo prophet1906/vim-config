@@ -2,6 +2,7 @@ let mapleader="," " set leader key to comma
 let g:tex_flavor="latex"
 let g:coc_filetype_map = {'tex': 'latex'}
 
+set backspace=indent,eol,start
 set clipboard="" " don't use clipboard
 set cmdheight=1 " more space in the neovim command line for
 set colorcolumn="99999" " fixes indentline for now
