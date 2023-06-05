@@ -47,3 +47,6 @@ nnoremap <Tab> gt
 nnoremap <S-Tab> gT
 nnoremap <silent> <S-t> :tabnew<CR>
 
+" Terminal Edit Mode
+tnoremap <Esc> <C-W>N
+
